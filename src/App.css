@@ -1,0 +1,119 @@
+html{
+  background-color: #23c844;
+}
+
+
+.App {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #347842;
+  border-radius: 20px;
+}
+
+.input-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-container input{
+  width: 300px;
+  height: 20px;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.input-container label{
+  font-size: 20px;
+  margin-top: 5px;
+  font-weight: 700;
+}
+
+.input-container button{
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 15px;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.input-container button:hover{
+  background-color:#044811;
+  transition: 500ms;
+  color: white;
+}
+
+.output-wrapper{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #23c844;
+  padding-bottom: 100px;
+  border-radius: 20px;
+}
+
+.h1{
+  border-bottom: 4px solid rgb(0, 0, 0);
+  width: 100%;
+  text-align: center;
+}
+
+
+
+
+
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 200px;
+  font-size: 20px;
+  background-color: rgba(250, 235, 215, 0.762);
+}
+
+.card button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: 700;
+}
+
+.card button:hover {
+  background-color: #c82333;
+  transition: 200ms;
+  color: black;
+}
+
+.button-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#edit-button{
+  background-color: #23c844;
+}
